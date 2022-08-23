@@ -14,10 +14,10 @@ logging:
 
 spring:
   datasource:
-    password: ZABzueZ3
-    url: jdbc:mysql://sh-cynosdbmysql-grp-knpl8owi.sql.tencentcdb.com:21104/final?serverTimezone=GMT%2B8
+    password: xxxxxxxx
+    url: xxxxxxxx
     username: root
-    type: com.alibaba.druid.pool.DruidDataSource
+    type: xxxxxxxx
     driver-class-name: com.mysql.cj.jdbc.Driver
 
   jackson:
@@ -26,8 +26,8 @@ spring:
       fail-on-unknown-properties: false
 
   redis:
-    host: 182.92.185.137
-    password: 423414a.
+    host: xxx.xxx.xxx.xxx
+    password: xxxxxxxx
     port: 6379
 
   application:
@@ -36,7 +36,7 @@ spring:
   cloud:
     nacos:
       discovery:
-        server-addr: 182.92.185.137:8848
+        server-addr: xxx.xxx.xxx:xxxx
 
 dubbo:
   cloud:
@@ -58,7 +58,7 @@ seata:
     type: nacos
     nacos:
       namespace:
-      serverAddr: 182.92.185.137:8848
+      serverAddr: xxx.xxx.xxx.xxx:xxxx
       group: SEATA_GROUP
       username: "nacos"
       password: "nacos"
@@ -67,7 +67,7 @@ seata:
     type: nacos
     nacos:
       application: seata-server
-      server-addr: 182.92.185.137:8848
+      server-addr: xxx.xxx.xxx.xxx:xxxx
       group: SEATA_GROUP
       namespace:
       username: "nacos"

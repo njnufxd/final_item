@@ -1,6 +1,0 @@
-com\geekgame\demo\service\impl\ItemServiceImpl.class
-com\geekgame\demo\config\CorsConfig.class
-com\geekgame\demo\dao\ItemDAO.class
-com\geekgame\demo\dataobject\ItemDO.class
-com\geekgame\demo\config\DataSourceConfig.class
-com\geekgame\demo\config\SpringHttpSessionConfig.class
